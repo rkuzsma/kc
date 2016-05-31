@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  p Life360 Members:
+  each member in life360Members
+    div #{member.firstName} is within #{member.location.accuracy} feet
