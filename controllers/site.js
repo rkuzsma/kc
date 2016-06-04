@@ -1,5 +1,5 @@
-const life360 = require('../lib/life360');
-const $log = require('log4js').getLogger('site');
+const life360 = require('life360-hack'),
+  $log = require('log4js').getLogger('site');
 
 exports.index = function(req, res, next){
   username = process.env.LIFE360_USERNAME;
